@@ -1,6 +1,7 @@
 import streamlit as st
 from streamlit_navigation_bar import st_navbar
 from Home import show_home
+from About import show_about
 
 def show_navbar():
     pages = ["Home", "About", "Projects", "Contact"]
@@ -33,4 +34,6 @@ def show_navbar():
 
     if page == "Home":
         show_home()
+    elif page == "About":
+        show_about()
 
