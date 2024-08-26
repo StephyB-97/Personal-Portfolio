@@ -5,6 +5,7 @@ from About import show_about
 from Projects import show_projects
 from contact import contact_form
 
+
 def show_navbar():
     pages = ["Home", "About", "Projects", "Contact"]
     styles = {

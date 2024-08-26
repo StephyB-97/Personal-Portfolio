@@ -1,7 +1,6 @@
 import streamlit as st
 from st_social_media_links import SocialMediaIcons
 
-
 def contact_form():
     st.write(" ")
     st.title("Contact Form")
