@@ -1,5 +1,4 @@
 import streamlit as st
-from Projects import show_projects
 
 def show_home():
     # Centered title, subheader, and Streamlit button using HTML and CSS
