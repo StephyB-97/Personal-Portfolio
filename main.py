@@ -1,3 +1,4 @@
+#main
 import streamlit as st
 from navbar import show_navbar
 
@@ -10,7 +11,6 @@ main_background = """
 """
 show_navbar()
 st.markdown(main_background, unsafe_allow_html=True)
-
 
 
 

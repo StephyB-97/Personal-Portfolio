@@ -19,11 +19,3 @@ def show_home():
     </div>
     """, unsafe_allow_html=True)
 
-    # Center the button using Streamlit's layout
-    col1, col2, col3 = st.columns([2,1,2])  # Adjust column ratios as needed
-    with col1:
-        st.write("   ")
-    with col2:  # Center column
-        st.button("PROJECTS", type="primary")
-    with col3:
-        st.write("")
