@@ -95,7 +95,7 @@ def show_projects():
                             unsafe_allow_html=True)
                 with live_demo_rental:
 
-                    st.markdown('<a href="https://sb-portfolio-management.streamlit.app" style="color:blue; text-decoration:none;">Live Demo</a>',
+                    st.markdown('<a href="https://rentals-n5jf.onrender.com" style="color:blue; text-decoration:none;">Live Demo</a>',
                             unsafe_allow_html=True)
 
      # Code for one whole card
